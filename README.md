@@ -39,6 +39,7 @@ Say what the step will be
 5. In a separate terminal execute the c file in the command line
         ex: ./c 
 
+```
 
 ## Authors
 
