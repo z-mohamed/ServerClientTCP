@@ -13,39 +13,36 @@ A client and server that interacts over a TCP connection. The purpose of this pr
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
-Give examples
+GCC Complier
+libc6-dev
 ```
 
-### Installing
+### Running
 
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
 
 ```
-Give the example
-```
+1. Clone or download this repository
 
-And repeat
+2. Modify file s on line 15 to listen to a port of your choosing currently it is set to listen on port 5004 
+        ex: ./server <port> 
 
-```
-until finished
-```
+3. modify file c on line 17 to connect to server by changing the ip address to your local host and the port to the one you choose in step 2
+        ex: ./client <localhost> <port>
 
-End with an example of getting some data out of the system or using it for a little demo
+4. Execute the s file in the command line 
+        ex: ./s
 
-
-## Built With
+5. In a separate terminal execute the c file in the command line
+        ex: ./c 
 
 
 ## Authors
 
 * **Zakariya Mohamed** - [zmohamed](https://github.com/z-mohamed)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 
 ## Acknowledgments

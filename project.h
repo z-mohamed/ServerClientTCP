@@ -1,10 +1,4 @@
-/*
-Cpts 455 Project 1
-Fall 2016
-Programmers: Conner Mattingly
-Zakariya Mohamed
-note our project is based on echo server client from Donahoo and Calvert
-*/
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -41,7 +35,7 @@ typedef struct {
 #define kByteAtATimeCmd  (6)
 #define noMoreCommands (0)
 
-/* This is the list of commands to be run by the client to demonstrate your program */
+/* This is the list of commands to be run by the client  */
 static command commands[] = {
   {nullTerminatedCmd, "Sent as a null-terminated string"},
   {givenLengthCmd, "Sent as an unterminated string"},

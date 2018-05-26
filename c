@@ -1,17 +1,17 @@
 #echo
 
-#echo removing outdated client executable
+echo removing outdated client executable
 
 rm client
 
-#echo client executable removed
+echo client executable removed
 
-#echo compiling client
+echo compiling client
 
 gcc -w -o client client.c;
 
-#echo client compilation complete
+echo client compilation complete
 
-#echo client connecting to server at 192.168.1.142 : 5000
+echo client connecting to server at 127.0.0.1 : 5004
 
-./client 192.168.1.142 5004
+./client 127.0.0.1 5004

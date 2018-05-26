@@ -1,15 +1,15 @@
 #echo
 
 
-rm server
 
-#echo server executable removed
+
+echo server executable removed
 
 
 gcc -w -o server server.c;
 
-#echo server compilation complete
+echo server compilation complete
 
-#echo starting server
+echo starting server
 
 ./server 5004

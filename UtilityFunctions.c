@@ -1,10 +1,4 @@
-/*
-Cpts 455 Project 1
-Fall 2016
-Programmers: Conner Mattingly
-             Zakariya Mohamed
 
-*/
 
 #include "project.h"
 //prepends prependPiece into actualPiece
